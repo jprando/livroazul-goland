@@ -24,9 +24,9 @@ go run -tags=vscode .
 a saida esperada eh
 
 ```text
-[go:build:vscode] rodando com -tags=vscode
-[go:build:vscode] executando a funcao init
-[go:build:vscode] do arquivo debug.go
+[go:tags:vscode] rodando com -tags=vscode
+[go:tags:vscode] executando a funcao init
+[go:tags:vscode] do arquivo debug.go
 args [0] /tmp/pastatemporaria/ch1
 args ... 123 456 789
 ```
